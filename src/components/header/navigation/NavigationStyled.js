@@ -3,14 +3,23 @@ import styled from 'styled-components';
 
 
 export const NavigationStyledContainer = styled.div`
+
+.navList{
+display:flex;
+justify-content:flex-start;
+
+}
+
+
 .NavLink{
 font-size:20px;
 color:black;
 text-decoration:none;
+margin-right:30px;
 }
 
 .NavLink--active{
-color:violet;
+color:#82d5ee;
 }
 
 .list{
@@ -31,5 +40,6 @@ font-weight: 700;
 
     margin-right: 30px;
 }
+
 
 `

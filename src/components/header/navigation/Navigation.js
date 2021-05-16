@@ -1,14 +1,14 @@
 import React from 'react';
-import { NavLink, withRouter } from 'react-router-dom';
-import {Link} from 'react-router-dom'
+import { NavLink} from 'react-router-dom';
+
 import { NavigationStyledContainer } from './NavigationStyled';
 
 const Navigation = () => {
     return (
         <NavigationStyledContainer>
-        <ul>
+        <ul className="navList">
 
-            <li>
+            <li >
                     <NavLink
                         exact
                         to="/"
