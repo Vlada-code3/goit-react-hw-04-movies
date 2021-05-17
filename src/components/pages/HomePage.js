@@ -24,15 +24,16 @@ import { Link } from 'react-router-dom';
 
       render() {
           return (
-                  
-
+                  <>
+                  <h1 className="titleTrending">Trending today</h1>
               <ul>
                   {this.state.items.map((item) => (
                       <li key={item.id}>
                           <Link className="itemList" to={`/movies/${item.id}`}>{item.title || item.name}</Link>
                       </li>
                   ))}
-              </ul>
+                  </ul>
+                  </>
              
           );
      

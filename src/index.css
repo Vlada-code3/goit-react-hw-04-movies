@@ -29,3 +29,13 @@ a {
 p {
   margin-bottom: 10px;
 }
+
+.titleTrending {
+  color: #257380;
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  font-weight: 800;
+  line-height: 72px;
+  text-transform: uppercase;
+  margin-left: 40px;
+}
